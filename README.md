@@ -10,7 +10,7 @@ A simple web-based notice board built with PHP and MySQL. It allows administrato
 - Notice categories
 - Responsive design
 
-## 🛠️ Tech Stack
+## Tech Stack
 
 - PHP
 - MySQL
