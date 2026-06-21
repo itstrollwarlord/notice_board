@@ -1,177 +1,58 @@
-# Notice Board Management System.
+# Notice Board Management System
 
-A responsive **Notice Board Management System** developed using **PHP, HTML, CSS, JavaScript, and MySQL**. The application provides an easy way to create, manage, edit, and delete notices through a secure admin dashboard with role-based access control.
-
-This project was built to strengthen my understanding of full-stack web development using core web technologies without relying on frameworks.
+A simple web-based Notice Board Management System built using **PHP, MySQL, HTML, CSS, and JavaScript**. This project allows administrators to create, update, and manage notices through a secure dashboard while users can view published notices. It was developed to improve my understanding of PHP, database management, user authentication, and CRUD operations.
 
 ## Features
 
-* User authentication (Login System)
-* Admin Dashboard
-* Role-based access control (Admin/User)
-* Create new notices
-* Edit existing notices
-* Delete notices
-* Display all notices
-* Notice categories
+* User login and authentication
+* Admin dashboard
+* Create, edit, and delete notices
+* Organize notices by category
 * Responsive user interface
-* Search-friendly card layout
-* Secure session management
+* Session-based access control
 * MySQL database integration
 
 ## Technologies Used
 
-### Frontend
-
+* PHP
+* MySQL
 * HTML5
 * CSS3
 * JavaScript
-
-### Backend
-
-* PHP
-
-### Database
-
-* MySQL
-
-### Development Tools
-
 * XAMPP
-* phpMyAdmin
-* Git
-* GitHub
+* Git & GitHub
 
-# Project Structure
+## Getting Started
 
-NoticeBoard/
-│
-├── admin_dashboard.php
-├── login.php
-├── logout.php
-├── add_notice.php
-├── edit_notice.php
-├── delete_notice.php
-├── db.php
-├── header.php
-├── navbar.php
-├── footer.php
-├── css/
-├── js/
-├── images/
-└── database/
+1. Clone this repository.
+2. Copy the project folder into your `htdocs` directory.
+3. Import the database into MySQL using phpMyAdmin.
+4. Update the database connection in `db.php` if needed.
+5. Start Apache and MySQL using XAMPP.
+6. Open the project in your browser.
 
-## Installation
+## Screenshots
 
-### 1. Clone the repository
+You can add screenshots of the login page, admin dashboard, and notice board here.
 
-```bash
-git clone https://github.com/itstrollwarlord/notice_board.git
-```
+## What I Learned
 
-### 2. Move the project
+While building this project, I gained practical experience with:
 
-Copy the project folder into your **htdocs** directory.
-
-Example:
-
-```
-C:\xampp\htdocs\NoticeBoard
-```
-
-### 3. Start XAMPP
-
-Start:
-
-* Apache
-* MySQL
-
-### 4. Import the Database
-
-* Open phpMyAdmin.
-* Create a new database.
-* Import the provided SQL file.
-
-### 5. Configure Database Connection
-
-Open:
-
-```
-db.php
-```
-
-Update your database credentials if necessary.
-
-```php
-$host = "localhost";
-$user = "root";
-$password = "";
-$database = "notice_board";
-```
-
-### 6. Run the Project
-
-Open your browser and visit:
-
-```
-http://localhost/NoticeBoard
-```
-
----
-
-## Main Functionalities
-
-* User Login
-* Session Management
-* Admin Authorization
-* Notice Management (CRUD)
-* Category Management
-* Responsive Dashboard
-* Secure Database Connectivity
-
----
-
-## Learning Outcomes
-
-Through this project, I learned:
-
-* PHP Programming
-* MySQL Database Integration
-* CRUD Operations
-* Session Handling
-* Authentication & Authorization
-* Responsive Web Design
-* HTML & CSS Layout Design
-* JavaScript Basics
-* Database Relationships
-* Git & GitHub Version Control
-
----
-
-## Security Features
-
-* Session-based authentication
-* Admin-only access to dashboard
-* Protected pages
-* Output escaping using `htmlspecialchars()`
-* Confirmation prompts before deleting records
-
----
+* PHP and MySQL
+* CRUD operations
+* Session management and authentication
+* Database relationships
+* Responsive web design
+* Version control using Git and GitHub
 
 ## Future Improvements
 
-* Image attachments for notices
-* File upload support
-* Search and filtering
+* Search and filter notices
+* File attachments
+* Rich text editor for notices
 * Pagination
-* Rich text editor
 * Email notifications
-* User profile management
-* Dark/Light mode
-* Notice expiration dates
-* Dashboard analytics
-
----
 
 ## Author
 
@@ -179,20 +60,5 @@ Through this project, I learned:
 
 BS Computer Science Student
 
-### Currently Learning
+GitHub: https://github.com/itstrollwarlord
 
-* PHP
-* MySQL
-* C#
-* ASP.NET Core
-* Android Development
-* Flutter
-
-GitHub:
-https://github.com/itstrollwarlord
-
-##  License
-
-This project is created for educational and portfolio purposes.
-
-⭐ If you like this project, consider giving it a star on GitHub!
