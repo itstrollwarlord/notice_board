@@ -1,4 +1,4 @@
-# Notice Board Management System
+# Notice Board Management System.
 
 A responsive **Notice Board Management System** developed using **PHP, HTML, CSS, JavaScript, and MySQL**. The application provides an easy way to create, manage, edit, and delete notices through a secure admin dashboard with role-based access control.
 
